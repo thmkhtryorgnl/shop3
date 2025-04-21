@@ -1,11 +1,10 @@
 # shop3
-This my 3th shop with python
-
+This id my 3th shop with python. It's an ecommerce website have persian language in front-end.
 ## Install
 
 To install it:
 ```
-# Linux or MacOS
+# Unix-like(linux)
 git clone https://github.com/thmkhtryorgnl/shop3/archive/refs/heads/main.zip
 python -m venv shop3
 source shop3/bin/activate
