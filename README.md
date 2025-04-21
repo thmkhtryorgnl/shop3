@@ -15,5 +15,5 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 ```
-now you can visit it in `http://127.0.0.1:8000`
-for admin go `/admin` and see django admin page
+now you can visit it in `http://127.0.0.1:8000` .
+for admin go `/admin` and see django admin page .
