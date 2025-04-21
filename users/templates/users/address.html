@@ -1,0 +1,34 @@
+{% extends "users/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<!-- site__body -->
+		<div class="site__body">
+			<div class="page-header">
+				<div class="page-header__container container">
+
+
+				</div>
+			</div>
+			<div class="block">
+				<div class="container">
+					<div class="row">
+				<div class="col-12 col-lg-8 col-xl-10 make-address">
+
+						<div class="card mb-lg-0">
+							<div class="card-body">
+
+								<form id="shipping-form" method="post">
+									{% csrf_token %}
+									{{Addressform|crispy}}
+                            <input class=" address-submit btn btn-primary" type="submit" value="ثبت آدرس">
+                                    </form>
+								</div>
+							</div>
+						</div>
+
+				</div>
+			</div>
+		</div>
+        </div>
+		<!-- site__body / end -->
+{% endblock content %}
